@@ -1,0 +1,9 @@
+#+title: org-publish-wiki.el
+#+author: Tassos Manganaris
+
+#+begin_src emacs-lisp
+(use-package org-publish-wiki
+  :config
+  (setq org-publish-wiki-output-path "~/my-website/posts/wiki")
+  (org-publish-wiki-add-entry "my-wiki"))
+#+end_src
